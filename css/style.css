@@ -75,15 +75,20 @@ div {
   color: var(--green-color);
 }
 
+.id-pokemon {
+  text-align: center;
+}
+
+.container-img h2 {
+  text-transform: uppercase;
+}
+
 @media (max-width:640px) {
   .card-container{
     display: block;
     width: 450px;
   }
 
-  div {
-    display: block;
-  }
 
   .container-info input {
     height: 50px;
@@ -97,7 +102,7 @@ div {
 
 
   .container-img {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
   }
